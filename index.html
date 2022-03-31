@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu cadastro!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link class="icontopo" rel="icon" href="./img/cerebro-criativo.png">
+</head>
+
+<body>
+    <div id="main-container">
+        <h1>PREENCHA O CADASTRO</h1>
+        <form id="register-form">
+            <div class="full-box">
+                <label for="email">E-MAIL</label>
+                <input required type="email" name="email" id="email" placeholder="Digite seu e-mail.">
+            </div>
+            <div class="half-box spacing">
+                <label for="name">NOME</label>
+                <input required type="text" name="name" id="name" placeholder="Digite o seu nome.">
+            </div>
+            <div class="half-box">
+                <label for="name">SOBRENOME</label>
+                <input required type="text" name="lastname" id="lastname" placeholder="Digite o seu sobrenome.">
+            </div>
+            <div class="half-box spacing">
+                <label for="password">SENHA</label>
+                <input required type="password" name="password" id="password" placeholder="Cadastre uma senha.">
+            </div>
+            <div class="half-box">
+                <label for="passconfirmation">CONFIRME SUA SENHA</label>
+                <input required type="password" name="password" id="password" placeholder="Confirme a sua senha.">
+            </div>
+            <div class="agreement">
+                <abbr title="Clique na caixinha se estiver de acordo com o termo."><input required type="checkbox"
+                        name="agreement" id="agreement-label"></abbr>
+                <abbr title='Clique em "termo de uso" para visualiza-lo'><label for="agreement" id="agreement">Eu li e
+                        aceito os <a class="termoscolor"
+                            href="https://files.thefnafarchive.org/images/fnafteasers/fullres/7-offline.jpg"
+                            target="_blank" rel="external">TERMOS DE USO</a>.</label></abbr>
+            </div>
+            <div class="full-box">
+                <abbr title="Clique em REGISTRAR para finalizar o cadastro."><input type="submit" id="btn-submit" class="efeito"
+                        value="REGISTRAR"></abbr>
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+    <script src="./js/main.js"></script>
+<footer class="footer">DESENVOLVIDO POR ALEF F. BARBOSA</footer>
+</body>
+
+</html>

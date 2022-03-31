@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+    border: none;
+    color: #ffffff;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input, label {
+    outline: none;
+}
+
+
+body {
+    padding-top:30px;
+    background-color: #000000;
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+#main-container {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3333339a;
+    border-radius: 5px;
+    padding: 25px 25px;
+    box-shadow: 8px 8px 10px 9px rgba(0, 0, 0, 0.144), 0px 3px 1px -2px rgba(0, 0, 0, 0.068), 0px 1px 5px 0px rgba(0, 0, 0, 0.089);
+};
+
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+    
+    
+}
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+input {
+    border-bottom: 2px solid #1f1c1c;
+    padding: 4%;
+    font-size: .7rem;
+    margin-bottom: 40px;
+    font-family: 'Roboto Mono', sans-serif;
+    background: rgba(0, 0, 0, 0.03)
+}
+input:focus {
+    border-color: #fc6e0f;
+}
+input[type="submit"] {
+    background-color: #fc6e0f;
+    color: #FFF;
+    border: none;
+    border-radius:5px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-appearance: none;
+}
+#agreement {
+    margin-right: 5px;
+   
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+    
+}
+
+.error-validation {
+    color: #ff1a1a;
+    position: relative;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.603);
+}
+.termoscolor {
+    color: #fc6e0f;
+}
